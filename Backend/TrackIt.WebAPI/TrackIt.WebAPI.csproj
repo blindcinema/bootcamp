@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f5ab8db4-325e-4706-ac4b-9e949f53a3e7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrackIt.Common\TrackIt.Common.csproj" />
+    <ProjectReference Include="..\TrackIt.Models\TrackIt.Models.csproj" />
+    <ProjectReference Include="..\TrackIt.Repository.Common\TrackIt.Repository.Common.csproj" />
+    <ProjectReference Include="..\TrackIt.Repository\TrackIt.Repository.csproj" />
+    <ProjectReference Include="..\TrackIt.Service.Common\TrackIt.Service.Common.csproj" />
+    <ProjectReference Include="..\TrackIt.Service\TrackIt.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrackIt.Models\TrackIt.Models.csproj" />
+    <ProjectReference Include="..\TrackIt.Service.Common\TrackIt.Service.Common.csproj" />
+    <ProjectReference Include="..\TrackIt.Service\TrackIt.Service.csproj" />
+  </ItemGroup>
+
+</Project>

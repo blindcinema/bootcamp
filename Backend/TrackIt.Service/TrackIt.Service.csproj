@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>TrackIt.Service</AssemblyTitle>
+    <Product>TrackIt.Service</Product>
+    <Copyright>Copyright ©  2024</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackIt.Models\TrackIt.Models.csproj" />
+    <ProjectReference Include="..\TrackIt.Repository.Common\TrackIt.Repository.Common.csproj" />
+    <ProjectReference Include="..\TrackIt.Repository\TrackIt.Repository.csproj" />
+    <ProjectReference Include="..\TrackIt.Service.Common\TrackIt.Service.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackIt.Repository.Common\TrackIt.Repository.Common.csproj" />
+    <ProjectReference Include="..\TrackIt.Repository\TrackIt.Repository.csproj" />
+    <ProjectReference Include="..\TrackIt.Service.Common\TrackIt.Service.Common.csproj" />
+  </ItemGroup>
+</Project>

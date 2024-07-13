@@ -1,0 +1,6 @@
+@TrackIt.WebAPI_HostAddress = http://localhost:5183
+
+GET {{TrackIt.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

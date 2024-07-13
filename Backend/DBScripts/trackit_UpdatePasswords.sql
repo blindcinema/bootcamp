@@ -1,0 +1,11 @@
+update "User" set "Password" = '$2a$11$8xpPIQKJrwamyaJQ/y3/IO9oun4Vbnt.M96Wjzq52egTudITeYkMW' where "Id" = '650e8400-e29b-41d4-a716-446655447818';
+update "User" set "Password" = '$2a$11$3.pw7mZ1mXCDMP1if.6ZP.EEmcunylMl5qmJOFFZp0anc3/5gey3a' where "Id" = '650e8400-e29b-41d4-a716-446655447527'; 
+update "User" set "Password" = '$2a$11$eis4lO6uyUFPcZz3/DlyGOW4QsdkWyGiDCnjQZqKp7MFDwPhqz/.S' where "Id" = '650e8400-e29b-41d4-a716-446655440049'; 
+update "User" set "Password" = '$2a$11$n05Oun2xh9elrMuXFtUe5ujAOmipQTDMed4bYuuUKurv59ibq.6Ay' where "Id" = '650e8400-e29b-41d4-a716-446655440026'; 
+update "User" set "Password" = '$2a$11$B.auXL9y.b.HD8VfDZc9JexsSamvhIdkbfSEeMOVpa4d9z97TrfW6' where "Id" = '650e8400-e29b-41d4-a716-446655445324'; 
+update "User" set "Password" = '$2a$11$WI1tLH7uvjHbdbRbqxnVNemeV6vmVbGhTfAvOt/UTd5TsYoiL4bc6' where "Id" = '650e8400-e29b-41d4-a716-446655440004'; 
+update "User" set "Password" = '$2a$11$Q2zfVft.RKj.agfzOAFyy.m0yKkXhalGABUJSHsZrBxSZs4bmvFUi' where "Id" = '650e8400-e29b-41d4-a716-446655440415'; 
+update "User" set "Password" = '$2a$11$fj7tEC2gq2wbSinRuOkE3eDXyspaWCWd4xnLxR3Hs/ZXsLONWYAqq' where "Id" = '650e8400-e29b-41d4-a716-446655440512'; 
+update "User" set "Password" = '$2a$11$GsTuzwaPMlr/eU.e0j7A8e7M840T02U9VDl9Ri1PLdB5fEjkb5Mj6' where "Id" = '650e8400-e29b-41d4-a716-446655440002'; 
+update "User" set "Password" = '$2a$11$nrlypZM4XZY/a3RcWIqEWupF/xA8P5n.Wl.ztSKrUMyfZN7GxM11i' where "Id" = '650e8400-e29b-41d4-a716-446655445721'; 
+update "User" set "Password" = '$2a$11$gNoHr8uQZrX5InRVCjYZdOVLTo/Q2uQS2w9ZOS.D6nrosCEzAVgtG' where "Id" = '650e8400-e29b-41d4-a716-446655440777'; 

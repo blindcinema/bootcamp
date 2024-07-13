@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+[data-theme="light"] {
+    --text: #172936;
+    --background: #e5e7f0;
+    --background2:rgb(189, 185, 233);
+    --primary: #2f29a3;
+    --secondary: #6765c5;
+    --accent: #5e80d5;
+  }
+[data-theme="dark"] {
+    --text: #c9dbe8;
+    --background: #0f111a;
+    --background2:#352b3f;
+    --primary: #625cd6;
+    --secondary: #4a48cb;
+    --accent: #2059e9;
+
+  }
+ 
+  body {
+    color: var(--text);
+    font-family: 'Roboto', sans-serif ;
+    background-color: var(--background);
+  }
+
+
+.container {
+    margin-top: 20px;
+}
+.text-costom {
+    color: #172936;
+}
+.package-info {
+    display: flex;
+    align-items: center;
+    background-color: #86a7f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.package-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.edit-button {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.user-icon {
+    font-size: 1.5rem;
+    background-color: #164FDF;
+    color: #172936;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.notes-section {
+    display: flex;
+    align-items: center;
+}
+.package-tracking {
+    margin-right: auto;
+}
+.package-tracking h5 {
+    margin: 0;
+}
+.package-tracking p {
+    margin: 0;
+    color: gray;
+}
+
+.delivery-button {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.login-container {
+    background-color: #86a7f8;
+    width: 20%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 12%;
+}
+.login-container h1 {
+    margin-bottom: 20px;
+}
+.form-control:focus {
+    border-color: #86a7f8;
+    box-shadow: 0 0 0 0.2rem rgba(108, 219, 94, 0.25);
+}
+.btn-custom {
+    background-color: white;
+    color: black;
+}
+.btn-custom:hover {
+    background-color: black;
+    color: white;
+}
+.comment-rating {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.profile-container {
+    background-color: #86a7f8;
+    width: 25%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 12%;
+}
+.profile-container h1 {
+    margin-bottom: 20px;
+}
+.costom-tite h2{
+  font-size: 2rem;
+}
+.bootstrap-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bootstrap-text h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
